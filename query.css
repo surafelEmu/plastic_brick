@@ -1,0 +1,153 @@
+
+/* @media (max-width: 79em) {
+    html {
+        font-size: 60rem;
+    }
+}
+   */
+
+@media (max-width: 75em) {
+    html {
+      /* 9px / 16px  */
+      font-size: 56.25%;
+    }
+
+    .footer_bottom {
+        margin-inline: 0;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 62.5em) {
+    html {
+      /* 9px / 16px  */
+      font-size: 45.25%;
+    }
+}
+
+
+@media (max-width: 53.75em) {
+    html {
+      /* 9px / 16px  */
+      font-size: 36.25%;
+    }
+}
+
+@media (max-width: 43.75em) {
+    html {
+      /* 9px / 16px  */
+      font-size: 35.25%;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0rem;
+        margin-inline: 20rem;
+        align-items: center;
+        gap: -1.5rem;
+    }
+
+    .right {
+        padding-top: 5rem;
+    }
+    p.left_message {
+        padding-right: 0rem;
+        font-size: 2.4rem;
+        text-align: center;
+    }
+    h2.left_title {
+    
+        line-height: 1.3;
+        text-align: center;
+    }
+    .about_me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about_creater p {
+        color: whitesmoke;
+        font-size: 2.2rem;
+    }
+    ul.about_creater.social {
+        text-align: center;
+        margin-inline: auto;
+    }
+    .enviroment {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-inline: 25rem;
+    }
+    p.mes_message {
+        
+        padding-right: 0rem; 
+        padding-top: 0rem;
+        
+    }
+
+    .env_message {
+        margin-top: 7rem;
+    }
+}
+
+
+
+
+
+@media (max-width: 37.75em) {
+
+    .applictions {
+        display: flex;
+        flex-direction: column;
+        margin-inline: 25rem;
+        text-align: center;
+    }
+
+    .app_top {
+        margin-inline: auo;
+        margin-inline: auto;
+        
+        justify-content: center;
+    }
+
+    .links {
+        display: none;
+    }
+    .on .content_message {
+        display: flex;
+        transform: translateY(0%);
+        transition: all .5s ease;
+    }
+
+    .content_message {
+        font-size: 2rem;
+        line-height: 1.5;
+        letter-spacing: 0.07rem;
+        margin-bottom: 5rem;
+        padding-left: 0rem;
+        transition: all .5s ease;
+        margin-left: 0rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 34.75em) {
+    .content , .applictions , .enviroment {
+        margin-inline: 10rem;
+    }
+    .head_message h1 {
+        font-size: 6rem;
+        line-height: 1.4;
+        letter-spacing: 2.2rem;
+    }
+
+    .about_me .footer_img {
+        width: 50rem;
+    }
+
+}
